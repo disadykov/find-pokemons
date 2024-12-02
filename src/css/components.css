@@ -1,0 +1,67 @@
+.pokemon {
+  margin-bottom: 50px;
+  background-color: #3e8fa0;
+  padding: 20px;
+}
+
+.delete-icon {
+  float: right;
+  color: #134b57;
+  cursor: pointer;
+  transform: scale(3);
+}
+
+.delete-icon:hover {
+  opacity: 0.5;
+}
+
+form input {
+  width: 8%;
+  padding: 15px 50px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border: 3px solid #7475cc;
+  background: rgb(4, 25, 63);
+  font-size: 15px;
+  color: white;
+  outline: none;
+}
+
+.btn-search {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: rgb(172, 157, 223);
+  border-radius: 8px;
+  background: linear-gradient(#1a24ad, #1a044d) #a962d3;
+  transition: 0.2s;
+  margin-left: 15px;
+  font-size: 20px;
+  width: 9%;
+  cursor: pointer;
+  transition: transform 500ms ease;
+}
+
+.btn-search:hover {
+  background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+
+.btn-search:active {
+  background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+.error {
+  color: red;
+}
+
+.rectangle {
+
+  list-style: disclosure-closed;
+  font: 14px "Trebuchet MS", "Lucida Sans";
+  padding: 20px;
+
+}
